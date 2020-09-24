@@ -1,0 +1,91 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "GTPL Login Test Scenario",
+        "description": "",
+        "id": "gtpl-login-test-feature;gtpl-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user already on login page",
+            "match": {
+              "location": "GTPLLoginOutline.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "title of login page is GTPL Bank Home Page",
+            "match": {
+              "location": "GTPLLoginOutline.title_of_login_page_is_GTPL_Bank_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters \"mngr285631\" and \"UrYgAjy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr285631",
+                  "offset": 13
+                },
+                {
+                  "val": "UrYgAjy",
+                  "offset": 30
+                }
+              ],
+              "location": "GTPLLoginOutline.user_enters_username_and_user_enters_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user click on login button",
+            "match": {
+              "location": "GTPLLoginOutline.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "GTPLLoginOutline.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "GTPL_Login_Test_Feature",
+    "description": "",
+    "id": "gtpl-login-test-feature",
+    "keyword": "Feature",
+    "uri": "F:/BDD_Project/GTPLBDD/src/main/java/Features/GTPLLogin_OutlineExample.feature"
+  }
+]

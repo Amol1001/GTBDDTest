@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="GTPL_Login_Test_Feature" name="GTPL Login Test Scenario" time="0">
+<system-out><![CDATA[Given user already on login page............................................skipped
+When title of login page is GTPL Bank Home Page.............................skipped
+Then user enters "mngr285631" and "UrYgAjy".................................skipped
+Then user click on login button.............................................skipped
+Then close the browser......................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
